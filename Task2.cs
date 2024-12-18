@@ -16,7 +16,8 @@ namespace Task_2
             string ageInput = Console.ReadLine();
             int Age = int.Parse(ageInput);
             const int LegalAge = 0;
-            
+
+                //
             if (Age == LegalAge) 
             {
                 // Tells the user their number is zero
